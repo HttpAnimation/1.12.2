@@ -53,3 +53,5 @@
 [14:03:13] [User Authenticator #8/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
 [14:03:13] [Server thread/INFO]: HttpAnimations[/192.168.0.191:46296] logged in with entity id 38078 at (-899.9138460379705, 63.0, -204.03805159417908)
 [14:03:13] [Server thread/INFO]: HttpAnimations joined the game
+[14:16:52] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[14:16:52] [Server thread/INFO]: HttpAnimations left the game
