@@ -28,3 +28,8 @@
 [12:20:45] [Server thread/INFO]: <HttpAnimations> nigger sleep
 [12:20:47] [Server thread/INFO]: Sfu0 lost connection: Disconnected
 [12:20:47] [Server thread/INFO]: Sfu0 left the game
+[12:21:11] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[12:21:11] [Server thread/INFO]: HttpAnimations left the game
+[12:21:13] [User Authenticator #5/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[12:21:13] [Server thread/INFO]: HttpAnimations[/192.168.0.191:32928] logged in with entity id 20361 at (-898.3852503699792, 63.0, -210.10482233025002)
+[12:21:13] [Server thread/INFO]: HttpAnimations joined the game
