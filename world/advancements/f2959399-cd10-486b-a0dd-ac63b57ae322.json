@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-06-22 16:47:03 -0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-06-22 11:19:17 -0700",
@@ -372,6 +378,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-06-22 16:47:03 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2024-06-22 11:08:57 -0700"
@@ -381,6 +393,12 @@
   "minecraft:recipes/decorations/black_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-06-22 12:14:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-06-22 16:47:03 -0700"
     },
     "done": true
   },
@@ -1103,6 +1121,7 @@
       "deep_ocean": "2024-06-22 16:44:29 -0700",
       "beaches": "2024-06-22 16:44:28 -0700",
       "extreme_hills_with_trees": "2024-06-22 11:10:44 -0700",
+      "desert_hills": "2024-06-22 16:46:49 -0700",
       "forest_hills": "2024-06-22 11:08:39 -0700",
       "plains": "2024-06-22 11:19:40 -0700",
       "ocean": "2024-06-22 16:44:20 -0700",
