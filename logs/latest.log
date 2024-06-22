@@ -1,0 +1,22 @@
+[12:08:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[12:08:20] [Server thread/INFO]: Loading properties
+[12:08:20] [Server thread/INFO]: Default game type: SURVIVAL
+[12:08:20] [Server thread/INFO]: Generating keypair
+[12:08:21] [Server thread/INFO]: Starting Minecraft server on *:25566
+[12:08:21] [Server thread/INFO]: Using epoll channel type
+[12:08:21] [Server thread/INFO]: Preparing level "world"
+[12:08:21] [Server thread/INFO]: Loaded 488 advancements
+[12:08:21] [Server thread/INFO]: Preparing start region for level 0
+[12:08:22] [Server thread/INFO]: Preparing spawn area: 48%
+[12:08:22] [Server thread/INFO]: Done (1.730s)! For help, type "help" or "?"
+[12:08:53] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[12:08:53] [Server thread/INFO]: HttpAnimations[/192.168.0.191:54664] logged in with entity id 392 at (-911.320547602752, 63.0, -212.95133673981763)
+[12:08:53] [Server thread/INFO]: HttpAnimations joined the game
+[12:09:17] [User Authenticator #2/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
+[12:09:17] [Server thread/INFO]: Sfu0[/127.250.198.123:36885] logged in with entity id 715 at (45.06605468846603, 55.0, 296.6823531959321)
+[12:09:17] [Server thread/INFO]: Sfu0 joined the game
+[12:09:20] [User Authenticator #3/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
+[12:09:21] [Server thread/INFO]: Sfu0 lost connection: You logged in from another location
+[12:09:21] [Server thread/INFO]: Sfu0 left the game
+[12:09:21] [Server thread/INFO]: Sfu0[/127.250.198.123:57595] logged in with entity id 1482 at (45.471333937755, 55.0, 296.69999998807907)
+[12:09:21] [Server thread/INFO]: Sfu0 joined the game
