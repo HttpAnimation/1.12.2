@@ -1099,6 +1099,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2024-06-22 10:51:43 -0700",
+      "deep_ocean": "2024-06-22 16:44:29 -0700",
+      "beaches": "2024-06-22 16:44:28 -0700",
       "extreme_hills_with_trees": "2024-06-22 11:10:44 -0700",
       "forest_hills": "2024-06-22 11:08:39 -0700",
       "plains": "2024-06-22 11:19:40 -0700",
