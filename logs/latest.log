@@ -1,80 +1,13 @@
-[12:08:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[12:08:20] [Server thread/INFO]: Loading properties
-[12:08:20] [Server thread/INFO]: Default game type: SURVIVAL
-[12:08:20] [Server thread/INFO]: Generating keypair
-[12:08:21] [Server thread/INFO]: Starting Minecraft server on *:25566
-[12:08:21] [Server thread/INFO]: Using epoll channel type
-[12:08:21] [Server thread/INFO]: Preparing level "world"
-[12:08:21] [Server thread/INFO]: Loaded 488 advancements
-[12:08:21] [Server thread/INFO]: Preparing start region for level 0
-[12:08:22] [Server thread/INFO]: Preparing spawn area: 48%
-[12:08:22] [Server thread/INFO]: Done (1.730s)! For help, type "help" or "?"
-[12:08:53] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[12:08:53] [Server thread/INFO]: HttpAnimations[/192.168.0.191:54664] logged in with entity id 392 at (-911.320547602752, 63.0, -212.95133673981763)
-[12:08:53] [Server thread/INFO]: HttpAnimations joined the game
-[12:09:17] [User Authenticator #2/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
-[12:09:17] [Server thread/INFO]: Sfu0[/127.250.198.123:36885] logged in with entity id 715 at (45.06605468846603, 55.0, 296.6823531959321)
-[12:09:17] [Server thread/INFO]: Sfu0 joined the game
-[12:09:20] [User Authenticator #3/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
-[12:09:21] [Server thread/INFO]: Sfu0 lost connection: You logged in from another location
-[12:09:21] [Server thread/INFO]: Sfu0 left the game
-[12:09:21] [Server thread/INFO]: Sfu0[/127.250.198.123:57595] logged in with entity id 1482 at (45.471333937755, 55.0, 296.69999998807907)
-[12:09:21] [Server thread/INFO]: Sfu0 joined the game
-[12:17:02] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[12:17:02] [Server thread/INFO]: HttpAnimations left the game
-[12:20:24] [User Authenticator #4/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[12:20:24] [Server thread/INFO]: HttpAnimations[/192.168.0.191:52028] logged in with entity id 19358 at (-910.3524965688637, 62.0, -223.28628607284867)
-[12:20:24] [Server thread/INFO]: HttpAnimations joined the game
-[12:20:45] [Server thread/INFO]: <HttpAnimations> nigger sleep
-[12:20:47] [Server thread/INFO]: Sfu0 lost connection: Disconnected
-[12:20:47] [Server thread/INFO]: Sfu0 left the game
-[12:21:11] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[12:21:11] [Server thread/INFO]: HttpAnimations left the game
-[12:21:13] [User Authenticator #5/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[12:21:13] [Server thread/INFO]: HttpAnimations[/192.168.0.191:32928] logged in with entity id 20361 at (-898.3852503699792, 63.0, -210.10482233025002)
-[12:21:13] [Server thread/INFO]: HttpAnimations joined the game
-[12:22:03] [User Authenticator #6/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
-[12:22:03] [Server thread/INFO]: Sfu0[/127.250.198.123:51117] logged in with entity id 21206 at (291.9372463671574, 44.0, 73.4010225277929)
-[12:22:03] [Server thread/INFO]: Sfu0 joined the game
-[12:22:13] [Server thread/INFO]: Sfu0 has made the advancement [Monster Hunter]
-[12:25:18] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[12:25:18] [Server thread/INFO]: HttpAnimations left the game
-[12:29:05] [Server thread/INFO]: Sfu0 has made the advancement [Acquire Hardware]
-[12:30:02] [Server thread/INFO]: Sfu0 has made the advancement [Isn't It Iron Pick]
-[12:30:54] [Server thread/INFO]: Sfu0 has made the advancement [Suit Up]
-[12:31:08] [Server thread/INFO]: Sfu0 has made the advancement [Not Today, Thank You]
-[12:43:26] [Server thread/INFO]: Sfu0 lost connection: Disconnected
-[12:43:26] [Server thread/INFO]: Sfu0 left the game
-[12:44:14] [User Authenticator #7/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
-[12:44:14] [Server thread/INFO]: Sfu0[/127.250.198.123:49145] logged in with entity id 36211 at (252.71799611869466, 12.0, 57.69999998807907)
-[12:44:14] [Server thread/INFO]: Sfu0 joined the game
-[12:47:31] [Server thread/INFO]: Sfu0 lost connection: Disconnected
-[12:47:31] [Server thread/INFO]: Sfu0 left the game
-[14:03:13] [User Authenticator #8/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[14:03:13] [Server thread/INFO]: HttpAnimations[/192.168.0.191:46296] logged in with entity id 38078 at (-899.9138460379705, 63.0, -204.03805159417908)
-[14:03:13] [Server thread/INFO]: HttpAnimations joined the game
-[14:16:52] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[14:16:52] [Server thread/INFO]: HttpAnimations left the game
-[15:52:36] [User Authenticator #9/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[15:52:36] [Server thread/INFO]: HttpAnimations[/192.168.0.191:54240] logged in with entity id 51309 at (-909.5961094225883, 64.0, -233.95709039829222)
-[15:52:36] [Server thread/INFO]: HttpAnimations joined the game
-[15:58:38] [Server thread/INFO]: HttpAnimations has made the advancement [Not Today, Thank You]
-[16:08:19] [Server thread/INFO]: HttpAnimations has made the advancement [Diamonds!]
-[16:11:14] [Server thread/INFO]: <HttpAnimations> 18
-[16:11:27] [Server thread/INFO]: HttpAnimations has made the advancement [Ice Bucket Challenge]
-[16:12:10] [Server thread/INFO]: <HttpAnimations> 19
-[16:15:12] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[16:15:12] [Server thread/INFO]: HttpAnimations left the game
-[16:15:19] [User Authenticator #10/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[16:15:19] [Server thread/INFO]: HttpAnimations[/192.168.0.191:51334] logged in with entity id 78170 at (-811.5494402416106, 11.0, -33.71064361573364)
-[16:15:19] [Server thread/INFO]: HttpAnimations joined the game
-[16:18:16] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[16:18:16] [Server thread/INFO]: HttpAnimations left the game
-[16:21:41] [User Authenticator #11/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[16:21:41] [Server thread/INFO]: HttpAnimations[/192.168.0.191:43168] logged in with entity id 81269 at (-801.6503742785844, 11.0, -11.193762063483122)
-[16:21:41] [Server thread/INFO]: HttpAnimations joined the game
-[16:36:35] [Server thread/INFO]: HttpAnimations has made the advancement [Take Aim]
-[17:48:47] [Server thread/INFO]: HttpAnimations drowned
-[18:07:33] [Server thread/INFO]: HttpAnimations drowned
-[18:15:21] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[18:15:21] [Server thread/INFO]: HttpAnimations left the game
+[16:20:28] [Server thread/INFO]: Stopping the server
+[16:20:28] [Server thread/INFO]: Stopping server
+[16:20:28] [Server thread/INFO]: Saving players
+[16:20:28] [Server thread/INFO]: Saving worlds
+[16:20:28] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[16:20:28] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[16:20:28] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[16:20:29] [Server Shutdown Thread/INFO]: Stopping server
+[16:20:29] [Server Shutdown Thread/INFO]: Saving players
+[16:20:29] [Server Shutdown Thread/INFO]: Saving worlds
+[16:20:29] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
+[16:20:29] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
+[16:20:29] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
