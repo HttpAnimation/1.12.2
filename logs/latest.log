@@ -76,3 +76,5 @@
 [16:36:35] [Server thread/INFO]: HttpAnimations has made the advancement [Take Aim]
 [17:48:47] [Server thread/INFO]: HttpAnimations drowned
 [18:07:33] [Server thread/INFO]: HttpAnimations drowned
+[18:15:21] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[18:15:21] [Server thread/INFO]: HttpAnimations left the game
