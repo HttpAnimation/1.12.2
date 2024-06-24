@@ -22,3 +22,4 @@
 [22:16:53] [Server thread/INFO]: HttpAnimations has made the advancement [We Need to Go Deeper]
 [22:16:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3201ms behind, skipping 64 tick(s)
 [22:16:54] [Server thread/WARN]: HttpAnimations moved too quickly! 799.411783858007,1.0,211.26962967223886
+[22:17:38] [Server thread/WARN]: HttpAnimations moved too quickly! -799.7532202059035,-1.0,-210.86789908511182
