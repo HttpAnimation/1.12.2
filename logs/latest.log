@@ -3,3 +3,5 @@
 [00:02:30] [Server thread/INFO]: HttpAnimations joined the game
 [00:02:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3183ms behind, skipping 63 tick(s)
 [00:23:20] [Server thread/INFO]: HttpAnimations burned to death
+[01:48:46] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[01:48:46] [Server thread/INFO]: HttpAnimations left the game
