@@ -28,3 +28,8 @@
 [22:25:27] [Server thread/INFO]: HttpAnimations has made the advancement [Into Fire]
 [22:30:28] [Server thread/INFO]: HttpAnimations burned to death
 [22:33:37] [Server thread/INFO]: HttpAnimations was blown up by HttpAnimations
+[23:23:36] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[23:23:36] [Server thread/INFO]: HttpAnimations left the game
+[23:23:39] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[23:23:39] [Server thread/INFO]: HttpAnimations[/192.168.0.191:42034] logged in with entity id 62381 at (-906.6973073269562, 63.0, -195.30430680646901)
+[23:23:39] [Server thread/INFO]: HttpAnimations joined the game
