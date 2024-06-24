@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-23 22:16:53 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2024-06-22 11:59:53 -0700"
@@ -266,6 +272,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-06-22 11:19:17 -0700",
+      "cooked_beef": "2024-06-23 22:16:31 -0700",
       "beef": "2024-06-22 16:56:38 -0700",
       "apple": "2024-06-22 11:03:14 -0700"
     },
@@ -657,6 +664,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2024-06-22 16:08:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-06-23 22:16:53 -0700"
     },
     "done": true
   },
