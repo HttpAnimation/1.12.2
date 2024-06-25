@@ -1,12 +1,30 @@
-[14:16:31] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[14:16:31] [Server thread/INFO]: Loading properties
-[14:16:31] [Server thread/INFO]: Default game type: SURVIVAL
-[14:16:31] [Server thread/INFO]: Generating keypair
-[14:16:31] [Server thread/INFO]: Starting Minecraft server on *:25566
-[14:16:31] [Server thread/INFO]: Using epoll channel type
-[14:16:32] [Server thread/INFO]: Preparing level "world"
-[14:16:32] [Server thread/INFO]: Loaded 488 advancements
-[14:16:32] [Server thread/INFO]: Preparing start region for level 0
-[14:16:33] [Server thread/INFO]: Preparing spawn area: 6%
-[14:16:34] [Server thread/INFO]: Preparing spawn area: 45%
-[14:16:35] [Server thread/INFO]: Done (2.998s)! For help, type "help" or "?"
+[12:47:03] [Server thread/INFO]: Loading properties
+[12:47:03] [Server thread/INFO]: Default game type: SURVIVAL
+[12:47:03] [Server thread/INFO]: Generating keypair
+[12:47:03] [Server thread/INFO]: Starting Minecraft server on *:25566
+[12:47:03] [Server thread/INFO]: Using epoll channel type
+[12:47:03] [Server thread/INFO]: Preparing level "world"
+[12:47:04] [Server thread/INFO]: Loaded 488 advancements
+[12:47:04] [Server thread/INFO]: Preparing start region for level 0
+[12:47:05] [Server thread/INFO]: Preparing spawn area: 37%
+[12:47:05] [Server thread/INFO]: Done (1.982s)! For help, type "help" or "?"
+[12:47:11] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[12:47:11] [Server thread/INFO]: HttpAnimations[/192.168.0.191:59398] logged in with entity id 232 at (-1905.3067839580604, 62.07326432466506, 995.5546789430385)
+[12:47:11] [Server thread/INFO]: HttpAnimations joined the game
+[12:55:40] [Server thread/INFO]: <HttpAnimations> -2075 65 1731
+[13:00:03] [Server thread/INFO]: HttpAnimations drowned
+[13:09:50] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[13:09:50] [Server thread/INFO]: HttpAnimations left the game
+[13:14:10] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[13:14:10] [Server thread/INFO]: HttpAnimations[/192.168.0.191:32938] logged in with entity id 26119 at (-2083.9769214453, 65.0, 1723.8928427307453)
+[13:14:10] [Server thread/INFO]: HttpAnimations joined the game
+[13:14:54] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[13:14:54] [Server thread/INFO]: HttpAnimations left the game
+[13:15:40] [User Authenticator #3/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[13:15:40] [Server thread/INFO]: HttpAnimations[/192.168.0.191:58392] logged in with entity id 26438 at (-2077.5, 65.0, 1726.5)
+[13:15:40] [Server thread/INFO]: HttpAnimations joined the game
+[13:23:35] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[13:23:35] [Server thread/INFO]: HttpAnimations left the game
+[13:26:41] [User Authenticator #4/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[13:26:41] [Server thread/INFO]: HttpAnimations[/192.168.0.191:52326] logged in with entity id 29524 at (-2088.275444650533, 65.0, 1725.9581193381941)
+[13:26:41] [Server thread/INFO]: HttpAnimations joined the game

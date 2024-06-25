@@ -179,15 +179,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_sword": {
-    "criteria": {
-      "has_gold_ingot": "2024-06-24 00:11:38 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2024-06-24 00:05:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-06-24 00:11:38 -0700"
     },
     "done": true
   },
@@ -719,6 +719,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-06-22 10:57:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-06-25 13:18:03 -0700"
     },
     "done": true
   },
@@ -1363,6 +1369,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2024-06-22 10:51:43 -0700",
+      "mushroom_island_shore": "2024-06-25 12:49:36 -0700",
       "birch_forest": "2024-06-22 17:16:47 -0700",
       "deep_ocean": "2024-06-22 16:44:29 -0700",
       "beaches": "2024-06-22 16:44:28 -0700",
@@ -1374,6 +1381,7 @@
       "savanna_rock": "2024-06-22 17:38:03 -0700",
       "taiga": "2024-06-22 17:20:33 -0700",
       "taiga_hills": "2024-06-22 17:21:24 -0700",
+      "mushroom_island": "2024-06-25 12:49:39 -0700",
       "ocean": "2024-06-22 16:44:20 -0700",
       "extreme_hills": "2024-06-22 11:10:30 -0700",
       "roofed_forest": "2024-06-22 16:42:16 -0700",
