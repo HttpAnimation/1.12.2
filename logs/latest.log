@@ -1,76 +1,11 @@
-[01:20:56] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[01:20:56] [Server thread/INFO]: Loading properties
-[01:20:56] [Server thread/INFO]: Default game type: SURVIVAL
-[01:20:56] [Server thread/INFO]: Generating keypair
-[01:20:56] [Server thread/INFO]: Starting Minecraft server on *:25566
-[01:20:57] [Server thread/INFO]: Using epoll channel type
-[01:20:57] [Server thread/INFO]: Preparing level "world"
-[01:20:57] [Server thread/INFO]: Loaded 488 advancements
-[01:20:57] [Server thread/INFO]: Preparing start region for level 0
-[01:20:58] [Server thread/INFO]: Preparing spawn area: 62%
-[01:20:58] [Server thread/INFO]: Done (1.485s)! For help, type "help" or "?"
-[01:21:25] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[01:21:25] [Server thread/INFO]: HttpAnimations[/192.168.0.191:40436] logged in with entity id 233 at (-2083.300000011921, 60.0, 1701.699999988079)
-[01:21:25] [Server thread/INFO]: HttpAnimations joined the game
-[01:23:27] [Server thread/INFO]: [HttpAnimations: Given [Hopper] * 1 to HttpAnimations]
-[01:23:28] [Server thread/INFO]: [HttpAnimations: Given [Hopper] * 64 to HttpAnimations]
-[01:24:49] [Server thread/INFO]: [HttpAnimations: Given [Chest] * 64 to HttpAnimations]
-[01:27:40] [Server thread/INFO]: [HttpAnimations: Given [Ladder] * 64 to HttpAnimations]
-[01:27:40] [Server thread/INFO]: [HttpAnimations: Given [Ladder] * 64 to HttpAnimations]
-[01:31:50] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[01:31:50] [Server thread/INFO]: HttpAnimations left the game
-[01:32:38] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[01:32:38] [Server thread/INFO]: HttpAnimations[/192.168.0.191:55094] logged in with entity id 4062 at (-2082.487500011921, 4.0, 1700.300000011921)
-[01:32:38] [Server thread/INFO]: HttpAnimations joined the game
-[01:41:04] [Server thread/INFO]: [HttpAnimations: Given [Brown Wool] * 64 to HttpAnimations]
-[03:24:28] [Server thread/INFO]: [HttpAnimations: Given [Hopper] * 1 to HttpAnimations]
-[03:24:35] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:36] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:42] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:42] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:42] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:43] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:24:56] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 64 to HttpAnimations]
-[06:36:37] [Server thread/INFO]: HttpAnimations was slain by Zombie
-[12:44:15] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[12:44:15] [Server thread/INFO]: HttpAnimations left the game
-[12:49:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@56d00279[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:37370) lost connection: Disconnected
-[12:49:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@352fb473[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:37374) lost connection: Disconnected
-[12:50:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@66c28ea8[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:44574) lost connection: Disconnected
-[13:12:03] [User Authenticator #3/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
-[13:12:03] [Server thread/INFO]: Sfu0[/127.183.229.162:36769] logged in with entity id 219248 at (229.30000001192093, 16.0, 53.30000001192093)
-[13:12:03] [Server thread/INFO]: Sfu0 joined the game
-[13:12:11] [Server thread/INFO]: Sfu0 lost connection: Disconnected
-[13:12:11] [Server thread/INFO]: Sfu0 left the game
-[13:37:40] [User Authenticator #4/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[13:37:40] [Server thread/INFO]: HttpAnimations[/192.168.0.191:39930] logged in with entity id 219541 at (-2069.644947206863, 65.0, 1702.1395955586931)
-[13:37:40] [Server thread/INFO]: HttpAnimations joined the game
-[13:38:28] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 64 to HttpAnimations]
-[13:41:51] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[13:41:51] [Server thread/INFO]: HttpAnimations left the game
-[13:42:37] [User Authenticator #5/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[13:42:37] [Server thread/INFO]: HttpAnimations[/192.168.0.191:39544] logged in with entity id 221083 at (-2088.354351073713, 71.0, 1700.6096221727598)
-[13:42:37] [Server thread/INFO]: HttpAnimations joined the game
-[14:26:35] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[14:26:35] [Server thread/INFO]: HttpAnimations left the game
-[14:26:39] [User Authenticator #6/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[14:26:39] [Server thread/INFO]: HttpAnimations[/192.168.0.191:56852] logged in with entity id 245292 at (-1696.699999988079, 67.0, 119.6999999880791)
-[14:26:39] [Server thread/INFO]: HttpAnimations joined the game
-[14:26:59] [Server thread/INFO]: HttpAnimations fell from a high place
-[14:33:52] [Server thread/WARN]: Boat moved wrongly!
-[14:33:52] [Server thread/WARN]: Boat moved wrongly!
-[14:40:56] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[14:40:56] [Server thread/INFO]: HttpAnimations left the game
-[16:02:27] [Server thread/INFO]: Stopping the server
-[16:02:28] [Server thread/INFO]: Stopping server
-[16:02:28] [Server thread/INFO]: Saving players
-[16:02:28] [Server thread/INFO]: Saving worlds
-[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[16:02:28] [Server Shutdown Thread/INFO]: Stopping server
-[16:02:28] [Server Shutdown Thread/INFO]: Saving players
-[16:02:28] [Server Shutdown Thread/INFO]: Saving worlds
-[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
-[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
-[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
+[16:05:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:05:32] [Server thread/INFO]: Loading properties
+[16:05:32] [Server thread/INFO]: Default game type: SURVIVAL
+[16:05:32] [Server thread/INFO]: Generating keypair
+[16:05:33] [Server thread/INFO]: Starting Minecraft server on *:25566
+[16:05:33] [Server thread/INFO]: Using epoll channel type
+[16:05:33] [Server thread/INFO]: Preparing level "world"
+[16:05:33] [Server thread/INFO]: Loaded 488 advancements
+[16:05:33] [Server thread/INFO]: Preparing start region for level 0
+[16:05:34] [Server thread/INFO]: Preparing spawn area: 61%
+[16:05:34] [Server thread/INFO]: Done (1.412s)! For help, type "help" or "?"
