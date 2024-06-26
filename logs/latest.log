@@ -34,3 +34,4 @@
 [06:36:37] [Server thread/INFO]: HttpAnimations was slain by Zombie
 [12:44:15] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
 [12:44:15] [Server thread/INFO]: HttpAnimations left the game
+[12:49:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@56d00279[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:37370) lost connection: Disconnected
