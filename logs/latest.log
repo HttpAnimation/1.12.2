@@ -35,3 +35,4 @@
 [12:44:15] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
 [12:44:15] [Server thread/INFO]: HttpAnimations left the game
 [12:49:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@56d00279[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:37370) lost connection: Disconnected
+[12:49:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@352fb473[id=<null>,name=HttpAnimations,properties={},legacy=false] (/192.168.0.191:37374) lost connection: Disconnected
