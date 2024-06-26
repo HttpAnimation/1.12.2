@@ -40,3 +40,5 @@
 [13:12:03] [User Authenticator #3/INFO]: UUID of player Sfu0 is 7b03628e-4318-481b-999b-280f27b3f9cd
 [13:12:03] [Server thread/INFO]: Sfu0[/127.183.229.162:36769] logged in with entity id 219248 at (229.30000001192093, 16.0, 53.30000001192093)
 [13:12:03] [Server thread/INFO]: Sfu0 joined the game
+[13:12:11] [Server thread/INFO]: Sfu0 lost connection: Disconnected
+[13:12:11] [Server thread/INFO]: Sfu0 left the game
