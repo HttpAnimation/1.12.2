@@ -9,3 +9,8 @@
 [16:05:33] [Server thread/INFO]: Preparing start region for level 0
 [16:05:34] [Server thread/INFO]: Preparing spawn area: 61%
 [16:05:34] [Server thread/INFO]: Done (1.412s)! For help, type "help" or "?"
+[16:07:50] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[16:07:50] [Server thread/INFO]: HttpAnimations[/192.168.0.191:51280] logged in with entity id 231 at (-1038.1422907517785, 63.0, 1162.699999988079)
+[16:07:50] [Server thread/INFO]: HttpAnimations joined the game
+[16:07:55] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[16:07:55] [Server thread/INFO]: HttpAnimations left the game
