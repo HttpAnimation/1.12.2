@@ -17,3 +17,5 @@
 [01:24:49] [Server thread/INFO]: [HttpAnimations: Given [Chest] * 64 to HttpAnimations]
 [01:27:40] [Server thread/INFO]: [HttpAnimations: Given [Ladder] * 64 to HttpAnimations]
 [01:27:40] [Server thread/INFO]: [HttpAnimations: Given [Ladder] * 64 to HttpAnimations]
+[01:31:50] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[01:31:50] [Server thread/INFO]: HttpAnimations left the game
