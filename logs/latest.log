@@ -61,3 +61,16 @@
 [14:33:52] [Server thread/WARN]: Boat moved wrongly!
 [14:40:56] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
 [14:40:56] [Server thread/INFO]: HttpAnimations left the game
+[16:02:27] [Server thread/INFO]: Stopping the server
+[16:02:28] [Server thread/INFO]: Stopping server
+[16:02:28] [Server thread/INFO]: Saving players
+[16:02:28] [Server thread/INFO]: Saving worlds
+[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[16:02:28] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[16:02:28] [Server Shutdown Thread/INFO]: Stopping server
+[16:02:28] [Server Shutdown Thread/INFO]: Saving players
+[16:02:28] [Server Shutdown Thread/INFO]: Saving worlds
+[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
+[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
+[16:02:28] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
