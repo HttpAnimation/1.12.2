@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "00000000-0000-0000-0009-01f9ba784241",
+    "name": ".HtpAnimation",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "f2959399-cd10-486b-a0dd-ac63b57ae322",
+    "name": "HttpAnimations",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

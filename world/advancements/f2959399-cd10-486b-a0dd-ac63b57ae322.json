@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_brick": "2024-06-25 20:19:53 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2024-06-22 10:58:55 -0700"
@@ -343,6 +349,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-06-25 17:58:25 -0700",
       "cooked_mutton": "2024-06-22 11:19:17 -0700",
       "cooked_beef": "2024-06-23 22:16:31 -0700",
       "beef": "2024-06-22 16:56:38 -0700",
@@ -554,6 +561,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2024-06-25 16:57:16 -0700"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2024-06-22 11:01:52 -0700"
@@ -659,6 +672,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2024-06-22 10:58:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-06-25 16:34:31 -0700"
     },
     "done": true
   },
@@ -794,6 +813,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-06-25 16:43:57 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-06-22 12:14:03 -0700"
@@ -809,8 +834,10 @@
       "blaze": "2024-06-23 22:25:26 -0700",
       "zombie": "2024-06-22 11:04:04 -0700",
       "cave_spider": "2024-06-24 00:07:14 -0700",
+      "witch": "2024-06-25 16:43:21 -0700",
       "spider": "2024-06-22 11:05:12 -0700",
-      "creeper": "2024-06-22 10:57:46 -0700"
+      "creeper": "2024-06-22 10:57:46 -0700",
+      "enderman": "2024-06-25 16:52:53 -0700"
     },
     "done": false
   },
@@ -934,6 +961,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 16:57:16 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-06-22 12:14:03 -0700"
@@ -997,6 +1030,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2024-06-24 00:11:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_stone_slab": "2024-06-26 01:20:08 -0700"
     },
     "done": true
   },
@@ -1228,6 +1267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-06-25 16:43:57 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2024-06-24 00:11:38 -0700"
@@ -1433,6 +1478,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_brick": "2024-06-25 20:19:53 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2024-06-22 10:53:19 -0700"
@@ -1529,6 +1580,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2024-06-25 16:36:29 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2024-06-22 11:10:25 -0700"
@@ -1538,6 +1595,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2024-06-23 22:22:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-06-25 16:43:56 -0700"
     },
     "done": true
   },
@@ -1556,6 +1619,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_at_least_9_lapis": "2024-06-22 16:04:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_brick": "2024-06-25 20:19:53 -0700"
     },
     "done": true
   },
@@ -1598,6 +1667,12 @@
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-06-22 12:14:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 16:36:29 -0700"
     },
     "done": true
   },
