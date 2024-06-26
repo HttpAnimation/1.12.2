@@ -12,3 +12,5 @@
 [01:21:25] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
 [01:21:25] [Server thread/INFO]: HttpAnimations[/192.168.0.191:40436] logged in with entity id 233 at (-2083.300000011921, 60.0, 1701.699999988079)
 [01:21:25] [Server thread/INFO]: HttpAnimations joined the game
+[01:23:27] [Server thread/INFO]: [HttpAnimations: Given [Hopper] * 1 to HttpAnimations]
+[01:23:28] [Server thread/INFO]: [HttpAnimations: Given [Hopper] * 64 to HttpAnimations]
