@@ -19,3 +19,4 @@
 [01:27:40] [Server thread/INFO]: [HttpAnimations: Given [Ladder] * 64 to HttpAnimations]
 [01:31:50] [Server thread/INFO]: HttpAnimations lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
 [01:31:50] [Server thread/INFO]: HttpAnimations left the game
+[01:32:38] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
