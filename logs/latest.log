@@ -17,3 +17,5 @@
 [16:08:48] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
 [16:08:48] [Server thread/INFO]: HttpAnimations[/192.168.0.191:43900] logged in with entity id 446 at (-1038.1422907517785, 63.0, 1162.699999988079)
 [16:08:48] [Server thread/INFO]: HttpAnimations joined the game
+[16:10:01] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[16:10:01] [Server thread/INFO]: HttpAnimations left the game
