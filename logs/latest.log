@@ -1,36 +1,37 @@
-[03:41:13] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:planks 1 0
-[03:41:13] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
-[03:41:15] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:planks 64 0
-[03:41:15] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 64 to HttpAnimations]
-[03:41:48] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations battleaxesoldmaster:bluestoneaxe 1 0
-[03:41:48] [Server thread/INFO]: [HttpAnimations: There is no such item with name battleaxesoldmaster:bluestoneaxe]
-[03:41:49] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations battleaxesoldmaster:bluestoneaxe 1 0
-[03:41:49] [Server thread/INFO]: [HttpAnimations: There is no such item with name battleaxesoldmaster:bluestoneaxe]
-[03:41:52] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:diamond_axe 1 0
-[03:41:52] [Server thread/INFO]: [HttpAnimations: Given [Diamond Axe] * 1 to HttpAnimations]
-[03:49:46] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:diamond_sword 1 0 {ench:[{lvl:4s,id:16s},{lvl:2s,id:19s},{lvl:2s,id:20s},{lvl:2s,id:21s},{lvl:3s,id:22s},{lvl:3s,id:34s},{lvl:1s,id:70s}],RepairCost:31}
-[03:49:46] [Server thread/INFO]: [HttpAnimations: Given [Diamond Sword] * 1 to HttpAnimations]
-[10:10:28] [Server thread/INFO]: HttpAnimations issued server command: /tp @s -1134 40.5 2062
-[10:10:28] [Server thread/INFO]: [HttpAnimations: Teleported HttpAnimations to -1133.5, 40.5, 2062.5]
-[10:11:42] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:torch 1 0
-[10:11:42] [Server thread/INFO]: [HttpAnimations: Given [Torch] * 1 to HttpAnimations]
-[10:11:44] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:torch 64 0
-[10:11:44] [Server thread/INFO]: [HttpAnimations: Given [Torch] * 64 to HttpAnimations]
-[10:15:09] [Server thread/INFO]: HttpAnimations tried to swim in lava
-[10:15:20] [Server thread/INFO]: HttpAnimations issued server command: /tp @s -1166 9.5 2052
-[10:15:20] [Server thread/INFO]: [HttpAnimations: Teleported HttpAnimations to -1165.5, 9.5, 2052.5]
-[10:34:22] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[10:34:22] [Server thread/INFO]: HttpAnimations left the game
-[12:18:39] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[12:18:39] [Server thread/INFO]: HttpAnimations[/192.168.0.191:54008] logged in with entity id 15806 at ([world]-1154.6032572559354, 29.0, 2060.300000011921)
-[12:19:02] [Server thread/INFO]: HttpAnimations fell from a high place
-[12:22:10] [Server thread/INFO]: HttpAnimations issued server command: /stop gonna add some plugins
-[12:22:10] [Server thread/INFO]: [HttpAnimations: Stopping the server]
-[12:22:10] [Server thread/INFO]: Stopping server
-[12:22:10] [Server thread/INFO]: Saving players
-[12:22:10] [Server thread/INFO]: HttpAnimations lost connection: Server closed
-[12:22:10] [Server thread/INFO]: HttpAnimations left the game
-[12:22:10] [Server thread/INFO]: Saving worlds
-[12:22:10] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[12:22:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[12:22:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[12:45:13] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[12:45:13] [Server thread/INFO]: Loading properties
+[12:45:13] [Server thread/INFO]: Default game type: SURVIVAL
+[12:45:13] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[12:45:13] [Server thread/INFO]: Debug logging is disabled
+[12:45:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:45:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:45:13] [Server thread/INFO]: Generating keypair
+[12:45:14] [Server thread/INFO]: Starting Minecraft server on *:25566
+[12:45:14] [Server thread/INFO]: Using epoll channel type
+[12:45:14] [Server thread/ERROR]: Could not load 'plugins/orebfuscator-plugin-5.5.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:45:14] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:45:14] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[12:45:16] [Server thread/INFO]: [InventoryFullPlus] Loading InventoryFullPlus v1.0.0
+[12:45:16] [Server thread/INFO]: [InventoryTracker] Loading InventoryTracker v1.0.5
+[12:45:16] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.3-T20240619115850
+[12:45:16] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[12:45:16] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.7
+[12:45:16] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
+[12:45:17] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.64
+[12:45:17] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[12:45:20] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.7.3
+[12:45:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:45:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[12:45:21] [Server thread/INFO]:         __    
+[12:45:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[12:45:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:45:21] [Server thread/INFO]: 
+[12:45:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:45:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:45:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...

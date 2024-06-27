@@ -14,6 +14,7 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  min-chunk-load-threads: 2
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
@@ -21,7 +22,6 @@ settings:
   remove-invalid-statistics: false
   save-player-data: true
   use-alternative-luck-formula: false
-  min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000
