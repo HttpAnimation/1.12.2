@@ -32,9 +32,9 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  enable-player-collisions: true
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
-  enable-player-collisions: true
 messages:
   kick:
     authentication-servers-down: ''
@@ -66,7 +66,6 @@ world-settings:
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
     portal-search-radius: 128
-    use-vanilla-world-scoreboard-name-coloring: false
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
@@ -102,6 +101,7 @@ world-settings:
     fast-drain:
       lava: false
       water: false
+    use-vanilla-world-scoreboard-name-coloring: false
     lava-flow-speed:
       normal: 30
       nether: 10
@@ -121,8 +121,8 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    auto-save-interval: -1
     keep-spawn-loaded-range: 8
+    auto-save-interval: -1
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     frosted-ice:

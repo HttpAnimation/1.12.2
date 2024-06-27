@@ -13,8 +13,10 @@
 config-version: 11
 settings:
   debug: false
-  sample-count: 12
   save-user-cache-on-stop-only: false
+  sample-count: 12
+  bungeecord: false
+  late-bind: false
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
@@ -22,8 +24,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  bungeecord: false
-  late-bind: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -35,15 +35,9 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -52,7 +46,13 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 advancements:
   disable-saving: false
   disabled:
