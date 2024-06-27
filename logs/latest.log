@@ -366,3 +366,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [13:24:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
 [13:24:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
 [13:24:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:26:07] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[13:26:07] [Server thread/INFO]: HttpAnimations left the game
