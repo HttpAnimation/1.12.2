@@ -17,3 +17,5 @@
 [10:11:44] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:torch 64 0
 [10:11:44] [Server thread/INFO]: [HttpAnimations: Given [Torch] * 64 to HttpAnimations]
 [10:15:09] [Server thread/INFO]: HttpAnimations tried to swim in lava
+[10:15:20] [Server thread/INFO]: HttpAnimations issued server command: /tp @s -1166 9.5 2052
+[10:15:20] [Server thread/INFO]: [HttpAnimations: Teleported HttpAnimations to -1165.5, 9.5, 2052.5]
