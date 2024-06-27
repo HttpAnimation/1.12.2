@@ -12,3 +12,7 @@
 [03:49:46] [Server thread/INFO]: [HttpAnimations: Given [Diamond Sword] * 1 to HttpAnimations]
 [10:10:28] [Server thread/INFO]: HttpAnimations issued server command: /tp @s -1134 40.5 2062
 [10:10:28] [Server thread/INFO]: [HttpAnimations: Teleported HttpAnimations to -1133.5, 40.5, 2062.5]
+[10:11:42] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:torch 1 0
+[10:11:42] [Server thread/INFO]: [HttpAnimations: Given [Torch] * 1 to HttpAnimations]
+[10:11:44] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:torch 64 0
+[10:11:44] [Server thread/INFO]: [HttpAnimations: Given [Torch] * 64 to HttpAnimations]
