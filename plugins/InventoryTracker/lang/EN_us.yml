@@ -1,0 +1,14 @@
+prefix: "&8&l(&e&lInvTracker&8&l) &r"
+
+backupCreated: "§e{target} §7inventory and EXP backup create successfully."
+backupRemoved: "&aInventory save removed successfully."
+
+noInventorySaveFound: "§cNo inventory save found for {target}!"
+
+inventoryRestored: "&a{target} inventory restored successfully."
+expRestored: "&a{target} EXP restored successfully."
+inventoryAndExpRestored: "&a{target} inventory and EXP restored successfully."
+
+playerOfflineRestoreError: "&4Couldn't restore inventory! &c{target} is currently offline!"
+playerOfflineExpError: "&4Couldn't restore EXP! &c{target} is currently offline!"
+inventoryFullRestoreError:  "&4Couldn't restore inventory! &c{target} doesn't have enough empty inventory slots!"

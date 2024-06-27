@@ -1,0 +1,31 @@
+DataBase:
+  type: 'SQLite' # AVAILABLE ( SQLite, MySQL )
+  MySQL:
+    storageHost: 'localhost'
+    storagePort: 3306
+    storageDatabase: 'inventory_tracker_db'
+    storageUser: 'root'
+    storagePassword: ''
+    useSSL: true
+
+generic:
+  debug: false
+  lang: EN_us
+  saveEmptyInventories: true
+
+automations:
+  retentionSystem:
+    enabled: false
+    checkEvery: 1800 # IN SECONDS ( 30 MIN'S )
+    deleteLogsOlderThan: 2629800 # IN SECONDS ( 1 MONTH )
+
+  autoSave:
+    enabled: true
+    delay: 1800 # IN SECONDS ( 30 MIN'S )
+
+saveEvents:
+  playerDeath: true
+  playerKilled: true
+  playerJoin: true
+  playerQuit: true
+  worldChange: true

@@ -1,0 +1,13 @@
+prefix: "&8&l(&e&lInvTracker&8&l) &r"
+
+backupCreated: "§e{target} §7l' inventario e il backup EXP vengono creati correttamente."
+backupRemoved: "&aSalvataggio dell'inventario rimosso correttamente."
+
+noInventorySaveFound: "§cNessun salvataggio di inventario trovato per {target}!"
+
+inventoryRestored: "&a{target} inventario ripristinato correttamente."
+expRestored: "&a{target} EXP ripristinato con successo."
+inventoryAndExpRestored: "&a{target} inventario ed EXP ripristinati con successo."
+
+playerOfflineRestoreError: "&4Impossibile ripristinare l'inventario! &c{target} è attualmente offline!"
+inventoryFullRestoreError:  "&4Impossibile ripristinare l'inventario! &c{target} non ha abbastanza spazi di inventario vuoti!"

@@ -1,0 +1,33 @@
+messages:
+  title: "&cInventory Full!"
+  subtitle: "&7Use /Sell!"
+  chat: "&cInventory Full!"
+
+inventoryfull:
+  enable: true
+  permissions: inventoryfull.notify
+  cancelevent: true
+  usetitle: true
+  usechat: true
+  useGUI: true
+  sound: ENTITY_EXPERIENCE_BOTTLE_THROW
+
+sellInventory:
+  size: 27
+  title: "&8Selling Gui"
+  items:
+    SellSkull:
+      name: "&cClick to sell"
+      slot: 12
+      lore:
+        - "a"
+        - "&c%player%"
+        - "&d%multiplier%"
+
+autosell:
+  sellcommand: "/sell"
+  permissions: inventoryfull.autosell
+  sell:
+    enable: true
+    selltitle: "&eSold correctly"
+    sellsubtitle: "&7Sold correctly"
