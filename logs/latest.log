@@ -2,3 +2,9 @@
 [03:41:13] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 1 to HttpAnimations]
 [03:41:15] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:planks 64 0
 [03:41:15] [Server thread/INFO]: [HttpAnimations: Given [Oak Wood Planks] * 64 to HttpAnimations]
+[03:41:48] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations battleaxesoldmaster:bluestoneaxe 1 0
+[03:41:48] [Server thread/INFO]: [HttpAnimations: There is no such item with name battleaxesoldmaster:bluestoneaxe]
+[03:41:49] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations battleaxesoldmaster:bluestoneaxe 1 0
+[03:41:49] [Server thread/INFO]: [HttpAnimations: There is no such item with name battleaxesoldmaster:bluestoneaxe]
+[03:41:52] [Server thread/INFO]: HttpAnimations issued server command: /give HttpAnimations minecraft:diamond_axe 1 0
+[03:41:52] [Server thread/INFO]: [HttpAnimations: Given [Diamond Axe] * 1 to HttpAnimations]
