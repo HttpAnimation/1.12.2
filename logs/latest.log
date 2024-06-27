@@ -9,3 +9,6 @@
 [17:35:56] [Server thread/INFO]: Preparing start region for level 0
 [17:35:57] [Server thread/INFO]: Preparing spawn area: 63%
 [17:35:57] [Server thread/INFO]: Done (1.491s)! For help, type "help" or "?"
+[19:43:02] [User Authenticator #1/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[19:43:02] [Server thread/INFO]: HttpAnimations[/192.168.0.191:55298] logged in with entity id 230 at (-1106.84323221546, 66.0, 1031.0895172575263)
+[19:43:03] [Server thread/INFO]: HttpAnimations joined the game
