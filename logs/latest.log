@@ -21,3 +21,5 @@
 [10:15:20] [Server thread/INFO]: [HttpAnimations: Teleported HttpAnimations to -1165.5, 9.5, 2052.5]
 [10:34:22] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
 [10:34:22] [Server thread/INFO]: HttpAnimations left the game
+[12:18:39] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
+[12:18:39] [Server thread/INFO]: HttpAnimations[/192.168.0.191:54008] logged in with entity id 15806 at ([world]-1154.6032572559354, 29.0, 2060.300000011921)
