@@ -468,3 +468,4 @@
 [02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
 [02:16:45] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 [02:17:03] [Server thread/INFO]: HttpAnimations issued server command: /lp group default premissions set backpack true
+[02:17:30] [Server thread/INFO]: HttpAnimations issued server command: /lp group default permissions set backpack true
