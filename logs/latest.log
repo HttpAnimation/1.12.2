@@ -471,3 +471,5 @@
 [02:17:30] [Server thread/INFO]: HttpAnimations issued server command: /lp group default permissions set backpack true
 [02:18:33] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.4.131.
 [02:18:33] [luckperms-command-executor/INFO]: [LP] Use /lp help to view available commands.
+[02:18:47] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
+[02:18:47] [Server thread/INFO]: HttpAnimations left the game
