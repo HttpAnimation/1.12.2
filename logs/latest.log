@@ -1,475 +1,177 @@
-[02:16:17] [User Authenticator #2/INFO]: UUID of player HttpAnimations is f2959399-cd10-486b-a0dd-ac63b57ae322
-[02:16:18] [Server thread/INFO]: HttpAnimations[/192.168.0.191:52490] logged in with entity id 636 at ([world]-2088.699999988079, 71.0, 1701.699999988079)
-[02:16:21] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:21] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:21] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:29] [Server thread/INFO]: HttpAnimations issued server command: /lp
-[02:16:34] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:34] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:34] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:35] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:35] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:35] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:35] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:35] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:36] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:36] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:36] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:36] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:36] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:37] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:37] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:37] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:37] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:37] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:41] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:41] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:41] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:16:45] [Netty Epoll Server IO #1/INFO]: An error has occurred when running transactions for player: HttpAnimations
-[02:16:45] [Netty Epoll Server IO #1/WARN]: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.attribute.Attribute.getName()" because the return value of "ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getAttribute()" is null
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerUpdateAttributes$Property.getKey(WrapperPlayServerUpdateAttributes.java:253)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.CompensatedEntities.updateAttributes(CompensatedEntities.java:103)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketEntityReplication.lambda$onPacketSend$3(PacketEntityReplication.java:174)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:328)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:44)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:45)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:52)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:82)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:56)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:63)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:40)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:404)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:304)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
-[02:16:45] [Netty Epoll Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[02:17:03] [Server thread/INFO]: HttpAnimations issued server command: /lp group default premissions set backpack true
-[02:17:30] [Server thread/INFO]: HttpAnimations issued server command: /lp group default permissions set backpack true
-[02:18:33] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.4.131.
-[02:18:33] [luckperms-command-executor/INFO]: [LP] Use /lp help to view available commands.
-[02:18:47] [Server thread/INFO]: HttpAnimations lost connection: Disconnected
-[02:18:47] [Server thread/INFO]: HttpAnimations left the game
+[15:33:03] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[15:33:03] [Server thread/INFO]: Loading properties
+[15:33:03] [Server thread/INFO]: Default game type: SURVIVAL
+[15:33:04] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[15:33:04] [Server thread/INFO]: Debug logging is disabled
+[15:33:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:33:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:33:04] [Server thread/INFO]: Generating keypair
+[15:33:04] [Server thread/INFO]: Starting Minecraft server on *:25566
+[15:33:04] [Server thread/INFO]: Using epoll channel type
+[15:33:04] [Server thread/ERROR]: Could not load 'plugins/orebfuscator-plugin-5.5.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:33:04] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:33:04] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[15:33:04] [Server thread/INFO]: [InventoryFullPlus] Loading InventoryFullPlus v1.0.0
+[15:33:04] [Server thread/INFO]: [InventoryTracker] Loading InventoryTracker v1.0.5
+[15:33:04] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.3-T20240619115850
+[15:33:04] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[15:33:04] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.7
+[15:33:04] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
+[15:33:04] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.64
+[15:33:04] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[15:33:07] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.7.3
+[15:33:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:33:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[15:33:07] [Server thread/INFO]:         __    
+[15:33:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[15:33:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:33:07] [Server thread/INFO]: 
+[15:33:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:33:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:33:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:33:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:33:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 962ms)
+[15:33:08] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.7
+[15:33:08] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[15:33:08] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:33:08] [Server thread/INFO]: Preparing level "world"
+[15:33:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:33:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:33:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:33:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:33:08] [Server thread/INFO]: Random Lighting Updates: false
+[15:33:08] [Server thread/INFO]: Structure Info Saving: true
+[15:33:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:33:08] [Server thread/INFO]: Max TNT Explosions: 100
+[15:33:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:33:08] [Server thread/INFO]: Mob Spawn Range: 4
+[15:33:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:33:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:33:08] [Server thread/INFO]: View Distance: 10
+[15:33:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:33:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:33:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:33:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:33:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:33:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:33:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:33:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:33:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:33:08] [Server thread/INFO]: Random Lighting Updates: false
+[15:33:08] [Server thread/INFO]: Structure Info Saving: true
+[15:33:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:33:08] [Server thread/INFO]: Max TNT Explosions: 100
+[15:33:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:33:08] [Server thread/INFO]: Mob Spawn Range: 4
+[15:33:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:33:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:33:08] [Server thread/INFO]: View Distance: 10
+[15:33:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:33:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:33:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:33:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:33:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:33:08] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:33:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:33:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:33:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:33:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:33:08] [Server thread/INFO]: Random Lighting Updates: false
+[15:33:08] [Server thread/INFO]: Structure Info Saving: true
+[15:33:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:33:08] [Server thread/INFO]: Max TNT Explosions: 100
+[15:33:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:33:08] [Server thread/INFO]: Mob Spawn Range: 4
+[15:33:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:33:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:33:08] [Server thread/INFO]: View Distance: 10
+[15:33:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:33:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:33:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:33:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:33:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:33:08] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9183540998277375753)
+[15:33:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: 9183540998277375753)
+[15:33:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9183540998277375753)
+[15:33:09] [Server thread/INFO]: [InventoryFullPlus] Enabling InventoryFullPlus v1.0.0
+[15:33:09] [Server thread/INFO]: ======= InventoryFull+ ========
+[15:33:09] [Server thread/INFO]: Plugin Successfully Loaded
+[15:33:09] [Server thread/INFO]: Author: zMatty28
+[15:33:09] [Server thread/INFO]: Version: 1.0.0
+[15:33:09] [Server thread/INFO]: ======= InventoryFull+ ========
+[15:33:09] [Server thread/INFO]: [InventoryTracker] Enabling InventoryTracker v1.0.5
+[15:33:09] [Server thread/INFO]: [InventoryTracker] [Lang] Language loaded from file EN_us.yml
+[15:33:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Starting...
+[15:33:09] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] InventoryTracker-Hikari-Pool - Added connection org.sqlite.SQLiteConnection@264a26ad
+[15:33:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Start completed.
+[15:33:10] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.3-T20240619115850
+[15:33:10] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[15:33:10] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[15:33:10] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[15:33:10] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[15:33:10] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[15:33:10] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[15:33:10] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[15:33:10] [Server thread/INFO]: [Minepacks] Finished loading item translations for 692 items.
+[15:33:10] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[15:33:10] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.64
+[15:33:10] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[15:33:10] [Server thread/INFO]: [GrimAC] Registering packets...
+[15:33:10] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[15:33:10] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.7.3
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[15:33:10] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 348ms to complete
+[15:33:10] [Server thread/INFO]: Done (2.280s)! For help, type "help" or "?"
+[15:33:10] [Server thread/INFO]: Timings Reset
+[15:33:10] [Craft Scheduler Thread - 1/INFO]: [InventoryTracker] [Update Checker] Cached latest version of InventoryTracker.

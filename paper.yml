@@ -14,7 +14,6 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
-  min-chunk-load-threads: 2
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
@@ -22,6 +21,7 @@ settings:
   remove-invalid-statistics: false
   save-player-data: true
   use-alternative-luck-formula: false
+  min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000
@@ -83,16 +83,10 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
     save-queue-limit-for-auto-save: 50
-    max-auto-save-chunks-per-tick: 24
     max-chunk-gens-per-tick: 10
     max-chunk-sends-per-tick: 81
+    max-auto-save-chunks-per-tick: 24
     delay-chunk-unloads-by: 10s
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
     despawn-ranges:
       soft: 32
       hard: 128
@@ -119,6 +113,12 @@ world-settings:
       cooldown-when-full: true
       disable-move-event: false
       push-based: false
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 8
