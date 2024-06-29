@@ -1,29 +1,36 @@
-[02:37:01] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[02:37:03] [Server thread/INFO]: Stopping the server
-[02:37:03] [Server thread/INFO]: Stopping server
-[02:37:03] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.7.3
-[02:37:03] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.64
-[02:37:03] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[02:37:03] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.7
-[02:37:03] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.3-T20240619115850
-[02:37:04] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[02:37:04] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[02:37:04] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
-[02:37:04] [Server thread/INFO]: [InventoryTracker] Disabling InventoryTracker v1.0.5
-[02:37:04] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Shutdown initiated...
-[02:37:04] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Shutdown completed.
-[02:37:04] [Server thread/INFO]: [InventoryFullPlus] Disabling InventoryFullPlus v1.0.0
-[02:37:04] [Server thread/INFO]: ======= InventoryFull+ ========
-[02:37:04] [Server thread/INFO]: Plugin Successfully Unloaded
-[02:37:04] [Server thread/INFO]: Author: zMatty28
-[02:37:04] [Server thread/INFO]: Version: 1.0.0
-[02:37:04] [Server thread/INFO]: ======= InventoryFull+ ========
-[02:37:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[02:37:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:37:04] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:37:04] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:37:04] [Server thread/INFO]: Saving players
-[02:37:04] [Server thread/INFO]: Saving worlds
-[02:37:04] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[02:37:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[02:37:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[02:56:55] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:56:55] [Server thread/INFO]: Loading properties
+[02:56:55] [Server thread/INFO]: Default game type: SURVIVAL
+[02:56:55] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:56:55] [Server thread/INFO]: Debug logging is disabled
+[02:56:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:56:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:56:56] [Server thread/INFO]: Generating keypair
+[02:56:56] [Server thread/INFO]: Starting Minecraft server on *:25566
+[02:56:56] [Server thread/INFO]: Using epoll channel type
+[02:56:56] [Server thread/ERROR]: Could not load 'plugins/orebfuscator-plugin-5.5.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[02:56:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:56:56] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[02:56:57] [Server thread/INFO]: [InventoryFullPlus] Loading InventoryFullPlus v1.0.0
+[02:56:57] [Server thread/INFO]: [InventoryTracker] Loading InventoryTracker v1.0.5
+[02:56:57] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.3-T20240619115850
+[02:56:57] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[02:56:57] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.7
+[02:56:57] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
+[02:56:57] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.64
+[02:56:57] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[02:57:00] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.7.3
+[02:57:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:57:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[02:57:01] [Server thread/INFO]:         __    
+[02:57:01] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[02:57:01] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:57:01] [Server thread/INFO]: 
+[02:57:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:57:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
