@@ -25,3 +25,157 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [12:40:16] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
 [12:40:16] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.64
 [12:40:16] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[12:40:20] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.7.3
+[12:40:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:40:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[12:40:21] [Server thread/INFO]:         __    
+[12:40:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[12:40:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:40:21] [Server thread/INFO]: 
+[12:40:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:40:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:40:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:40:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:40:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 6019ms)
+[12:40:26] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.7
+[12:40:27] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[12:40:27] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:40:27] [Server thread/INFO]: Preparing level "world"
+[12:40:27] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:40:27] [Server thread/INFO]: Mob Spawn Range: 4
+[12:40:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:40:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:40:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:40:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:40:27] [Server thread/INFO]: Random Lighting Updates: false
+[12:40:27] [Server thread/INFO]: Structure Info Saving: true
+[12:40:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:40:27] [Server thread/INFO]: Max TNT Explosions: 100
+[12:40:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:40:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:40:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:40:27] [Server thread/INFO]: View Distance: 10
+[12:40:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:40:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:40:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:40:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:40:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:40:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:40:28] [Server thread/INFO]: Mob Spawn Range: 4
+[12:40:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:40:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:40:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:40:28] [Server thread/INFO]: Random Lighting Updates: false
+[12:40:28] [Server thread/INFO]: Structure Info Saving: true
+[12:40:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:40:28] [Server thread/INFO]: Max TNT Explosions: 100
+[12:40:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:40:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:40:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:40:28] [Server thread/INFO]: View Distance: 10
+[12:40:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:40:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:40:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:40:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:40:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:40:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:40:28] [Server thread/INFO]: Mob Spawn Range: 4
+[12:40:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:40:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:40:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:40:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:40:28] [Server thread/INFO]: Random Lighting Updates: false
+[12:40:28] [Server thread/INFO]: Structure Info Saving: true
+[12:40:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:40:28] [Server thread/INFO]: Max TNT Explosions: 100
+[12:40:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:40:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:40:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:40:28] [Server thread/INFO]: View Distance: 10
+[12:40:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:40:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:40:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:40:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:40:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:40:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9183540998277375753)
+[12:40:29] [Server thread/INFO]: Preparing spawn area: 4%
+[12:40:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 9183540998277375753)
+[12:40:31] [Server thread/INFO]: Preparing spawn area: 30%
+[12:40:32] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9183540998277375753)
+[12:40:33] [Server thread/INFO]: [InventoryFullPlus] Enabling InventoryFullPlus v1.0.0
+[12:40:33] [Server thread/INFO]: ======= InventoryFull+ ========
+[12:40:33] [Server thread/INFO]: Plugin Successfully Loaded
+[12:40:33] [Server thread/INFO]: Author: zMatty28
+[12:40:33] [Server thread/INFO]: Version: 1.0.0
+[12:40:33] [Server thread/INFO]: ======= InventoryFull+ ========
+[12:40:33] [Server thread/INFO]: [InventoryTracker] Enabling InventoryTracker v1.0.5
+[12:40:33] [Server thread/INFO]: [InventoryTracker] [Lang] Language loaded from file EN_us.yml
+[12:40:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Starting...
+[12:40:33] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] InventoryTracker-Hikari-Pool - Added connection org.sqlite.SQLiteConnection@72f5843b
+[12:40:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Start completed.
+[12:40:33] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.3-T20240619115850
+[12:40:33] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[12:40:33] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[12:40:33] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[12:40:34] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[12:40:34] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[12:40:35] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[12:40:35] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[12:40:35] [Server thread/INFO]: [Minepacks] Finished loading item translations for 692 items.
+[12:40:35] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[12:40:35] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.64
+[12:40:35] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[12:40:35] [Server thread/INFO]: [GrimAC] Registering packets...
+[12:40:35] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[12:40:35] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[12:40:35] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.7.3
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[12:40:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1182ms to complete
+[12:40:37] [Server thread/INFO]: Done (9.346s)! For help, type "help" or "?"
+[12:40:37] [Server thread/INFO]: Timings Reset
+[12:40:37] [Craft Scheduler Thread - 1/INFO]: [InventoryTracker] [Update Checker] Cached latest version of InventoryTracker.
+[12:40:37] [Craft Scheduler Thread - 2/WARN]: [InventoryTracker] [Update Checker] Update available on SpigotMC and BuiltByBit. ( Latest -> v1.0.6 )
+[12:40:37] [Craft Scheduler Thread - 2/WARN]: [InventoryTracker] [Update Checker] Download it from here https://www.spigotmc.org/resources/inventorytracker.115271/.
