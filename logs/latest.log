@@ -6,3 +6,24 @@
 [02:37:03] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
 [02:37:03] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.7
 [02:37:03] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.3-T20240619115850
+[02:37:04] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[02:37:04] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[02:37:04] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[02:37:04] [Server thread/INFO]: [InventoryTracker] Disabling InventoryTracker v1.0.5
+[02:37:04] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Shutdown initiated...
+[02:37:04] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] InventoryTracker-Hikari-Pool - Shutdown completed.
+[02:37:04] [Server thread/INFO]: [InventoryFullPlus] Disabling InventoryFullPlus v1.0.0
+[02:37:04] [Server thread/INFO]: ======= InventoryFull+ ========
+[02:37:04] [Server thread/INFO]: Plugin Successfully Unloaded
+[02:37:04] [Server thread/INFO]: Author: zMatty28
+[02:37:04] [Server thread/INFO]: Version: 1.0.0
+[02:37:04] [Server thread/INFO]: ======= InventoryFull+ ========
+[02:37:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[02:37:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:37:04] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:37:04] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:37:04] [Server thread/INFO]: Saving players
+[02:37:04] [Server thread/INFO]: Saving worlds
+[02:37:04] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[02:37:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[02:37:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
